@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.account-hint * {
+  display: block;
+}
+
+nav .sign-in-button {
+  height: 30px;
+}
+
+.sign-in-button img {
+  width: 1rem;
+}
