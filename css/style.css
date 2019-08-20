@@ -92,3 +92,21 @@ nav a {
   height: 1.438rem;
   margin-right: .35rem;
 }
+
+.card {
+  font-family: AvenirNext, Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+  background: white;
+  color: #4c4c4c;
+  padding: 1.25rem 0rem;
+  margin: 1rem 0 0;
+  border: 1px solid #c7c7c7;
+}
+
+.card h4 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0 0 1rem;
+}
