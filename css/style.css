@@ -110,3 +110,55 @@ nav a {
   font-weight: 500;
   margin: 0 0 1rem;
 }
+
+
+form {
+  padding: 1rem 2rem;
+}
+
+form .form-field {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+}
+
+form .form-field input {
+  padding: .5rem .75rem;
+  border-radius: 3px;
+  border: 1px solid  #c7c7c7;
+  }
+
+form input:focus {
+  border-color: rgba(82,168,236,.8);
+  box-shadow: 0 1px 1px rgba(0,0,0,.075) inset, 0 0 8px rgba(82,168,236,.6);
+}
+
+form .form-field label {
+  display: block;
+  text-align: left;
+  margin-bottom:  0.35rem;
+}
+
+form .input-hint {
+  text-align: left;
+  font-size: 0.65rem;
+  margin-top:  0.35rem;
+}
+
+form button {
+  margin-top: .5rem;
+  border-radius: 5px;
+  border: 1px solid #0077C5;
+  background-color: #0077C5;
+  text-align: center;
+  color: white;
+  height: 3rem;
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+form button img {
+  height: 1rem;
+}
