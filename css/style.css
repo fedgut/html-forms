@@ -10,12 +10,44 @@ nav {
 
 .account-hint * {
   display: block;
+  font-size: 0.75rem;
+  line-height: 1.5;
+}
+
+nav .signup-container {
+  height: 60px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  color: #505050;
+  display: flex;
+  align-items: center;
 }
 
 nav .sign-in-button {
-  height: 30px;
+  height: 37px;
+  display: flex;
+  align-items: center;
+  padding: 0 1.25rem;
+  background: #0077C5;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid #4c4c4c;
+  margin: 0 1.5rem;
+}
+
+nav a {
+  color: #0077C5;
+  text-decoration: none;
 }
 
 .sign-in-button img {
-  width: 1rem;
+  width: 0.85rem;
+  margin-right: 0.5rem;
+}
+
+.signup-container p {
+  float: left;
+  margin: none;
+  margin-left: 10px;
+  text-align: right;
 }
