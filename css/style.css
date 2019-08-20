@@ -21,7 +21,7 @@ nav {
 
 nav .signup-container {
   height: 60px;
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   color: #505050;
   display: flex;
@@ -66,7 +66,9 @@ nav a {
 
 .signup-wrapper .container {
   min-width: 23.75rem;
+  max-width: 26rem;
 }
+
 .signup-wrapper .brand {
   display: flex;
   justify-content: center;
@@ -82,11 +84,13 @@ nav a {
   align-items: center;
   justify-content: center;
 }
+
 .signup-wrapper .other-products a {
   display: flex;
   align-items: center;
   margin-right: .55rem;
 }
+
 .signup-wrapper .other-products a .icon {
   width: 1.438rem;
   height: 1.438rem;
@@ -94,14 +98,14 @@ nav a {
 }
 
 .card {
-  font-family: AvenirNext, Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: normal;
   text-align: center;
   background: white;
   color: #4c4c4c;
-  padding: 1.25rem 0rem;
-  margin: 1rem 0 0;
+  padding: 1.25rem 0rem 0;
+  margin: 1rem 0 2rem;
   border: 1px solid #c7c7c7;
 }
 
@@ -111,6 +115,9 @@ nav a {
   margin: 0 0 1rem;
 }
 
+.card a {
+  color: #0077C5;
+}
 
 form {
   padding: 1rem 2rem;
@@ -122,31 +129,46 @@ form .form-field {
   padding: 1rem 0;
 }
 
+.form-field.with-suffix {
+  position: relative;
+}
+
+.form-field.with-suffix .icon-suffix {
+  position: absolute;
+  bottom: 26%;
+  right: 3%;
+  height: 1rem;
+  transform: rotateY(180deg);
+}
+.form-field.with-suffix input {
+  padding-right: 10%;
+}
+
 form .form-field input {
   padding: .5rem .75rem;
   border-radius: 3px;
-  border: 1px solid  #c7c7c7;
-  }
+  border: 1px solid #c7c7c7;
+}
 
 form input:focus {
-  border-color: rgba(82,168,236,.8);
-  box-shadow: 0 1px 1px rgba(0,0,0,.075) inset, 0 0 8px rgba(82,168,236,.6);
+  border-color: rgba(82, 168, 236, .8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .075) inset, 0 0 8px rgba(82, 168, 236, .6);
 }
 
 form .form-field label {
   display: block;
   text-align: left;
-  margin-bottom:  0.35rem;
+  margin-bottom: 0.35rem;
 }
 
 form .input-hint {
   text-align: left;
   font-size: 0.65rem;
-  margin-top:  0.35rem;
+  margin-top: 0.35rem;
 }
 
 form button {
-  margin-top: .5rem;
+  margin: .5rem 0 2rem;
   border-radius: 5px;
   border: 1px solid #0077C5;
   background-color: #0077C5;
@@ -161,4 +183,14 @@ form button {
 
 form button img {
   height: 1rem;
+}
+
+.card-footer {
+  background: #ECEEF1;
+  font-size: .75rem;
+  padding: 1.25rem 1.5rem;
+}
+
+.page-footer {
+  
 }
