@@ -1,6 +1,6 @@
 # HTML Forms
 
-## Cloning [Intuir sign up page](https://accounts.intuit.com/signup.html), a Microverse Project
+## Cloning [Intuit sign up page](https://accounts.intuit.com/signup.html), a Microverse Project
 
 [Demo](https://raw.githack.com/fedgut/html-forms/htmlform/index.html)
 
