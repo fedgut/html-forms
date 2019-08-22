@@ -108,15 +108,15 @@ nav a {
   text-align: center;
   background: white;
   color: #4c4c4c;
-  padding: 1.25rem 0rem 0px;
-  margin: 1rem 0px 1rem;
+  padding: 1.25rem 0 0;
+  margin: 1rem 0 1rem;
   border: 1px solid #c7c7c7;
 }
 
 .card h4 {
   font-size: 1.5rem;
   font-weight: 500;
-  margin: 0px 0px 1rem;
+  margin: 0 0 1rem;
 }
 
 .card a {
@@ -156,7 +156,8 @@ form .form-field input {
 
 form input:focus {
   border-color: rgba(82, 168, 236, 0.8);
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset,
+  box-shadow:
+    0 1px 1px rgba(0, 0, 0, 0.075) inset,
     0 0 8px rgba(82, 168, 236, 0.6);
 }
 
