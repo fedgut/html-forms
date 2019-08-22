@@ -1,4 +1,8 @@
 
+# linters:
+#   csslint
+  # stylelint:
+  #   config: 'stylelint.config.js'
 linters:
-  stylelint:
-    config: 'stylelint.config.js'
+    csslint:
+      config: 'stylelintrc.json'
