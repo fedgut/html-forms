@@ -1,10 +1,19 @@
 body {
-  margin: 0;
-  padding: 0;
   background-color: #eceef1;
   font-family:
-    Avenir, apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    Avenir,
+    apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -23,26 +32,26 @@ nav {
 }
 
 nav .signup-container {
-  height: 60px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 400;
+  align-items: center;
   color: #505050;
   display: flex;
-  align-items: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  height: 60px;
 }
 
 nav .sign-in-button {
-  height: 37px;
-  display: flex;
   align-items: center;
-  padding: 0 1.25rem;
   background: #0077c5;
-  color: white;
-  border-radius: 5px;
   border: 1px solid #4c4c4c;
-  margin: 0 1.2rem;
+  border-radius: 5px;
+  color: white;
+  display: flex;
   font-size: 0.8rem;
   font-weight: 500;
+  height: 37px;
+  margin: 0 1.2rem;
+  padding: 0 1.25rem;
 }
 
 nav a {
@@ -54,8 +63,8 @@ form button img {
 }
 
 .sign-in-button img {
-  width: 0.85rem;
   margin-right: 0.5rem;
+  width: 0.85rem;
 }
 
 .signup-container p {
@@ -72,8 +81,8 @@ form button img {
 }
 
 .signup-wrapper .container {
-  min-width: 23.75rem;
   max-width: 26rem;
+  min-width: 23.75rem;
 }
 
 .signup-wrapper .brand {
@@ -87,28 +96,33 @@ form button img {
 }
 
 .signup-wrapper .other-products {
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: center;
 }
 
 .signup-wrapper .other-products a .icon {
-  width: 1.438rem;
   height: 1.438rem;
   margin-right: 0.35rem;
+  width: 1.438rem;
 }
 
 .card {
+  background: white;
+  border: 1px solid #c7c7c7;
+  color: #4c4c4c;
   font-family:
-    AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    AvenirNext,
+    Avenir,
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
+    sans-serif;
   font-size: 14px;
   font-weight: normal;
-  text-align: center;
-  background: white;
-  color: #4c4c4c;
-  padding: 1.25rem 0 0;
   margin: 1rem 0 1rem;
-  border: 1px solid #c7c7c7;
+  padding: 1.25rem 0 0;
+  text-align: center;
 }
 
 .card h4 {
@@ -136,17 +150,17 @@ form .form-field {
 }
 
 .form-field.with-suffix .icon-suffix {
-  position: absolute;
   bottom: 26%;
-  right: 3%;
   height: 1rem;
+  position: absolute;
+  right: 3%;
   transform: rotateY(180deg);
 }
 
 form .form-field input {
-  padding: 0.5rem 0.75rem;
-  border-radius: 3px;
   border: 1px solid #c7c7c7;
+  border-radius: 3px;
+  padding: 0.5rem 0.75rem;
 }
 
 form input:focus {
@@ -162,28 +176,28 @@ form input:focus {
 
 form .form-field label {
   display: block;
-  text-align: left;
   margin-bottom: 0.35rem;
+  text-align: left;
 }
 
 form .input-hint {
-  text-align: left;
   font-size: 0.65rem;
   margin-top: 0.35rem;
+  text-align: left;
 }
 
 form button {
-  margin: 0.5rem 0 2rem;
-  border-radius: 5px;
-  border: 1px solid #0077c5;
   background-color: #0077c5;
-  text-align: center;
+  border: 1px solid #0077c5;
+  border-radius: 5px;
   color: white;
-  height: 3rem;
   display: block;
-  width: 100%;
   font-size: 1rem;
   font-weight: 400;
+  height: 3rem;
+  margin: 0.5rem 0 2rem;
+  text-align: center;
+  width: 100%;
 }
 
 .card-footer {
@@ -193,10 +207,10 @@ form button {
 }
 
 .page-footer {
-  text-align: center;
   color: #505050;
   font-size: 0.8rem;
   padding-bottom: 0.8rem;
+  text-align: center;
 }
 
 .page-footer p {
@@ -204,8 +218,8 @@ form button {
 }
 
 .page-footer a {
-  margin-right: 0.8rem;
   color: #505050;
+  margin-right: 0.8rem;
 }
 
 .page-footer a:hover {
@@ -213,7 +227,7 @@ form button {
 }
 
 .signup-wrapper .other-products a {
-  display: flex;
   align-items: center;
+  display: flex;
   margin-right: 0.55rem;
 }
