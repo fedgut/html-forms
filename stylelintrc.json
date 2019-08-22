@@ -1,1 +1,6 @@
-{}
+{
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "order-alphabetical": null
+  }
+}
