@@ -5,13 +5,13 @@
 [Demo](https://raw.githack.com/fedgut/html-forms/htmlform/index.html)
 
 # Built With
--HTML
--CSS
+- HTML
+- CSS
 
 # Authors
--[Abdulsamii Ajala](https://github.com/jalasem)
--[Eduardo Gutierrez](https://github.com/fedgut)
+- [Abdulsamii Ajala](https://github.com/jalasem)
+- [Eduardo Gutierrez](https://github.com/fedgut)
 
 # Acknowledgments
-[Mint](https://accounts.intuit.com/index.html)
-[Microverse](https://microverse.org)
+- [Mint](https://accounts.intuit.com/index.html)
+- [Microverse](https://microverse.org)
