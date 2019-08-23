@@ -1,0 +1,233 @@
+body {
+  background-color: #eceef1;
+  font-family:
+    Avenir,
+    apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.account-hint * {
+  display: block;
+  font-size: 0.75rem;
+  line-height: 1.5;
+}
+
+nav .signup-container {
+  align-items: center;
+  color: #505050;
+  display: flex;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  height: 60px;
+}
+
+nav .sign-in-button {
+  align-items: center;
+  background: #0077c5;
+  border: 1px solid #4c4c4c;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  font-size: 0.8rem;
+  font-weight: 500;
+  height: 37px;
+  margin: 0 1.2rem;
+  padding: 0 1.25rem;
+}
+
+nav a {
+  color: #0077c5;
+}
+
+form button img {
+  height: 1rem;
+}
+
+.sign-in-button img {
+  margin-right: 0.5rem;
+  width: 0.85rem;
+}
+
+.signup-container p {
+  float: left;
+  margin: none;
+  margin-left: 10px;
+  text-align: right;
+}
+
+.signup-wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 5vh;
+}
+
+.signup-wrapper .container {
+  max-width: 26rem;
+  min-width: 23.75rem;
+}
+
+.signup-wrapper .brand {
+  display: flex;
+  justify-content: center;
+}
+
+.signup-wrapper .brand img {
+  filter: grayscale(1) brightness(1.4);
+  height: 6rem;
+}
+
+.signup-wrapper .other-products {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.signup-wrapper .other-products a .icon {
+  height: 1.438rem;
+  margin-right: 0.35rem;
+  width: 1.438rem;
+}
+
+.card {
+  background: white;
+  border: 1px solid #c7c7c7;
+  color: #4c4c4c;
+  font-family:
+    AvenirNext,
+    Avenir,
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 1rem 0 1rem;
+  padding: 1.25rem 0 0;
+  text-align: center;
+}
+
+.card h4 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0 0 1rem;
+}
+
+.card a {
+  color: #0077c5;
+}
+
+form {
+  padding: 1rem 2rem;
+}
+
+form .form-field {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+}
+
+.form-field.with-suffix {
+  position: relative;
+}
+
+.form-field.with-suffix .icon-suffix {
+  bottom: 26%;
+  height: 1rem;
+  position: absolute;
+  right: 3%;
+  transform: rotateY(180deg);
+}
+
+form .form-field input {
+  border: 1px solid #c7c7c7;
+  border-radius: 3px;
+  padding: 0.5rem 0.75rem;
+}
+
+form input:focus {
+  border-color: rgba(82, 168, 236, 0.8);
+  box-shadow:
+    0 1px 1px rgba(0, 0, 0, 0.075) inset,
+    0 0 8px rgba(82, 168, 236, 0.6);
+}
+
+.form-field.with-suffix input {
+  padding-right: 10%;
+}
+
+form .form-field label {
+  display: block;
+  margin-bottom: 0.35rem;
+  text-align: left;
+}
+
+form .input-hint {
+  font-size: 0.65rem;
+  margin-top: 0.35rem;
+  text-align: left;
+}
+
+form button {
+  background-color: #0077c5;
+  border: 1px solid #0077c5;
+  border-radius: 5px;
+  color: white;
+  display: block;
+  font-size: 1rem;
+  font-weight: 400;
+  height: 3rem;
+  margin: 0.5rem 0 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+.card-footer {
+  background: #eceef1;
+  font-size: 0.75rem;
+  padding: 1.25rem 1.5rem;
+}
+
+.page-footer {
+  color: #505050;
+  font-size: 0.8rem;
+  padding-bottom: 0.8rem;
+  text-align: center;
+}
+
+.page-footer p {
+  line-height: 1;
+}
+
+.page-footer a {
+  color: #505050;
+  margin-right: 0.8rem;
+}
+
+.page-footer a:hover {
+  text-decoration: underline;
+}
+
+.signup-wrapper .other-products a {
+  align-items: center;
+  display: flex;
+  margin-right: 0.55rem;
+}
